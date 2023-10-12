@@ -1,17 +1,5 @@
-function displayMessage() {
-    // get the text out of our <input> and assign it to a variable
-    let msg = document.getElementById('message').value;
+// get the start and end numbers from the page 
 
-    // alert('Hello Guardian Cohort!')
-    Swal.fire(
-        {
-            icon: 'success',
-            backdrop: false,
-            title: '<strong>APP NAME</strong>',
-            text: msg, // <---- replace this text with that variable
-            showConfirmButton: false,
-            timer: 1500,
-            timerProgressBar: true,
-        }
-    );
-}
+// generate a list of all numbers between the start and end
+
+// display each of those numbers on the page
