@@ -48,3 +48,11 @@ footer .bi:hover {
 .app-logo {
     max-width: 400px;
 }
+
+.even {
+    font-weight: bold;
+}
+
+.odd {
+    color: red !important;
+}
