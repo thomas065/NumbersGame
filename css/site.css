@@ -6,6 +6,7 @@ html, body {
 body {
     display: flex;
     flex-direction: column;
+    background-color: var(--tb-green-200);
 }
 
 main {
