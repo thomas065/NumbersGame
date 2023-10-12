@@ -116,9 +116,10 @@
                 </div>
                 <div class="col border-start border-end border-2">
                     <h2 class="border-bottom border-2">Enter your values below</h2>
+                    <!-- form -->
                     <form action="#" class="row g-3">
                         <div class="col">
-                            <label class="form-label"for="startValue">Start Value</label>
+                            <label class="form-label" for="startValue">Start Value</label>
                             <input class="form-control"
                             type="number"
                             id="startValue"
@@ -127,7 +128,7 @@
                             value="0" />
                         </div>
                         <div class="col">
-                            <label class="form-label"for="endValue">End Value</label>
+                            <label class="form-label" for="endValue">End Value</label>
                             <input class="form-control"
                             type="number"
                             id="endValue"
@@ -194,8 +195,8 @@
             // get the button on the page and assign it to a variable
             let button = document.getElementById('btnSubmit');
 
-            // tell the button to ru our displayMessage function when clicked
-            button.addEventListener('click', displayMessage);
+            // tell the button to run our getValues function when clicked
+            button.addEventListener('click', getValues);
         </script>
     </body>
 </html>
